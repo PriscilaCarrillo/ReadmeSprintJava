@@ -32,26 +32,26 @@ Se creó una interface llamada Asesoría, la que tiene declarado el método anal
 
 Se han definido entidades al sistema y las validaciones correspondientes que se aplican en cada atributo, las cuales son:
 
-*Usuario: 
-*Cliente -> Se extiende desde la clase Usuario.
-*Profesional -> Se extiende desde la clase Usuario.
-*Administrativo -> Se extiende desde la clase Usuario.
-*Capacitación
-*Accidente
-*Visita en terreno
-*Revisión
+* Usuario: 
+* Cliente -> Se extiende desde la clase Usuario.
+* Profesional -> Se extiende desde la clase Usuario.
+* Administrativo -> Se extiende desde la clase Usuario.
+* Capacitación
+* Accidente
+* Visita en terreno
+* Revisión
 
 En cada clases existen los siguientes métodos adicionales:
 
-*Usuario: el método mostrarEdad (), el cual retorna un mensaje que dice “El usuario tiene X años” y en donde X es la edad del usuario en cuestión, y el método analizar Usuario (), se despliega el nombre y el RUN, además, esta clase  se implementa la interface Asesoría.
-*Cliente: el método obtenerNombre(), el cual retorna un String con el nombre completo del cliente (nombres + apellidos), el método obtenerSistemaSalud() que de acuerdo al valor registrado en el objeto despliega el tipo de sistema de salud, y el método analizarUsuario() se despliegan los datos del método del mismo nombre correspondiente a la clase padre y la dirección
+* Usuario: el método mostrarEdad (), el cual retorna un mensaje que dice “El usuario tiene X años” y en donde X es la edad del usuario en cuestión, y el método analizar Usuario (), se despliega el nombre y el RUN, además, esta clase  se implementa la interface Asesoría.
+* Cliente: el método obtenerNombre(), el cual retorna un String con el nombre completo del cliente (nombres + apellidos), el método obtenerSistemaSalud() que de acuerdo al valor registrado en el objeto despliega el tipo de sistema de salud, y el método analizarUsuario() se despliegan los datos del método del mismo nombre correspondiente a la clase padre y la dirección
 del cliente junto con la comuna.
-*Profesional:  Se implementa el método analizarUsuario(), el que despliega los datos del método del mismo nombre de la clase padre, y el título y fecha de ingreso del profesional.
-*Administrativo: el método analizarUsuario(), el cual muestra los datos del método del mismo nombre correspondiente a la clase padre, junto con el área a la que pertenece el administrativo y su experiencia previa.
-*Capacitación: el método mostrarDetalle(), retorna un mensaje con el texto “La capacitación será en A a las B del día C, y durará D minutos”, en donde A es el lugar, B es la hora, C es el día y D son los minutos.
-*Accidente:
-*Visita en terreno:
-*Revisión:
+* Profesional:  Se implementa el método analizarUsuario(), el que despliega los datos del método del mismo nombre de la clase padre, y el título y fecha de ingreso del profesional.
+* Administrativo: el método analizarUsuario(), el cual muestra los datos del método del mismo nombre correspondiente a la clase padre, junto con el área a la que pertenece el administrativo y su experiencia previa.
+* Capacitación: el método mostrarDetalle(), retorna un mensaje con el texto “La capacitación será en A a las B del día C, y durará D minutos”, en donde A es el lugar, B es la hora, C es el día y D son los minutos.
+* Accidente:
+* Visita en terreno:
+* Revisión:
 
 Se crea la clase Contenedor, la cual tiene tener declarado como atributos dos listas:
 * Una lista de instancias de la interface Asesoria y en esta lista se tienen almacenados distintos tipos de usuarios.
